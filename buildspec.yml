@@ -4,13 +4,20 @@ phases:
   pre_build:
     commands:
       - npm install
-      
+      - npm install axios
+      - npm install --save-dev jest
   build:
     commands:
-      - npm run build
-      
+      - npm build
+      - npm test
+
 artifacts:
   files:
     - '**/*'
-  #discard-paths: no
-  #base-directory: build test
+
+reports:
+  jest_reports:
+    files:
+      - My Test Case
+    file-format: JUNITXML
+    base-directory: "."
