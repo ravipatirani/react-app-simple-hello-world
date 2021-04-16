@@ -2,7 +2,7 @@ module.exports = {
   reporters: [
     'default',
     [ 'jest-junit', {
-      outputDirectory: /,
+      outputDirectory: root,
       outputName: JunitXml,
     } ]
   ]
