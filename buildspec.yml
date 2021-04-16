@@ -4,6 +4,7 @@ phases:
   pre_build:
     commands:
       - npm install
+      - npm install --save-dev jest-junit
   build:
     commands:
       - npm build
