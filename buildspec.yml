@@ -17,4 +17,4 @@ reports:
     files:
       - jest tests
     file-format: JUNITXML
-    
+    base-directory: "."
