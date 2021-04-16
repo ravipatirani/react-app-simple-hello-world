@@ -16,6 +16,6 @@ artifacts:
 reports:
   jest_reports:
     files:
-      - My Test Case
+      - jest tests
     file-format: JUNITXML
-    base-directory: "."
+    base-directory: ./artifacts
