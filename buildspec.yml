@@ -13,4 +13,10 @@ phases:
 artifacts:
   files:
     - '**/*'
+reports:
+  jest_reports:
+    files:
+      - <report filename>
+    file-format: JUNITXML
+    base-directory: <test report directory>    
 
