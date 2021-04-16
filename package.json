@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest --ci --reporters=default --reporters=jest-junit",
     "build": "webpack --mode production",
     "start": "webpack --mode development"
   },
@@ -29,6 +29,8 @@
     "react-dom": "^17.0.1",
     "webpack": "^5.26.2",
     "webpack-cli": "^4.5.0"
+    "jest": "^24.9.0",
+    "jest-junit": "^10.0.0",
   }
 }
 
