@@ -13,9 +13,3 @@ artifacts:
   files:
     - '**/*'
 
-reports:
-  jest_reports:
-    files:
-      - Unit Tests
-    file-format: JUNITXML
-    base-directory: "."
