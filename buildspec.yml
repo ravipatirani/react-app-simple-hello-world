@@ -5,6 +5,7 @@ phases:
     commands:
       - npm install
       - npm install --save-dev jest-junit
+      - npm install -g jest
   build:
     commands:
       - npm build
