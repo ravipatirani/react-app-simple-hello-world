@@ -31,7 +31,9 @@
     "webpack-cli": "^4.5.0"
   }
 }
-
+"scripts": {
+    "test": "jest"
+  },
 
 
 
