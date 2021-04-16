@@ -15,6 +15,6 @@ artifacts:
 reports:
   jest_reports:
     files:
-      - jest tests
+      - Unit Tests
     file-format: JUNITXML
     base-directory: "."
