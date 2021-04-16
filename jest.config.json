@@ -1,3 +1,9 @@
-{
-  "testRegex": "((\\.|/*.)(spec))\\.js?$"
-}
+module.exports = {
+  reporters: [
+    'default',
+    [ 'jest-junit', {
+      outputDirectory: ./artifacts,
+      outputName: jest tests,
+    } ]
+  ]
+};
